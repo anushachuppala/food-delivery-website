@@ -205,9 +205,13 @@ h3 {
 }
 
 .image-width {
-  width: auto;
-  height: auto;
+  width: 80px;
+  height: 80px;
 }
+
+/* .service-card p {
+  padding: 20px;
+} */
 
 /* Media Queries */
 
@@ -263,10 +267,43 @@ h3 {
   }
   /* 2.section II */
 
+  .text-center h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+
+    /* padding: 10px; */
+  }
   h2 {
+    display: flex;
+    justify-content: center;
     font-size: 3rem;
+    width: 100%;
+    margin-left: 5px;
     text-transform: capitalize;
+    overflow-wrap: break-word;
     color: var(--lead-clr);
     white-space: nowrap;
+  }
+  .service-card p {
+    font-size: 1.5rem;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .service-card h3 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: centr;
   }
 }
