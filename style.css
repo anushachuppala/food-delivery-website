@@ -41,6 +41,14 @@ li {
   justify-content: space-between;
 }
 
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.5rem;
+}
+
 .gap-2 {
   gap: 2rem;
 }
@@ -209,12 +217,25 @@ h3 {
   height: 80px;
 }
 
-/* .service-card p {
-  padding: 20px;
-} */
+/* 3. section III  */
+
+.order-card {
+  flex: 1;
+  flex-basis: 250px;
+  background: var(--pure-white);
+
+  border: 0.1rem solid var(--gold-finger);
+  border-radius: 2rem;
+  box-shadow:
+    rgba(0, 0, 0, 0.05) 8px 8px 8px,
+    rgba(0, 0, 0, 0.05) 8px 8px 8px inset;
+  transition: all 0.5s ease-in-out;
+}
+.order-card img {
+  width: 15rem;
+}
 
 /* Media Queries */
-
 @media screen and (max-width: 780px) {
   /* Header styling */
   .navlist,
@@ -299,11 +320,5 @@ h3 {
   .service-card h3 {
     font-size: 1.5rem;
     text-align: center;
-  }
-
-  .flex {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: centr;
   }
 }
