@@ -221,9 +221,9 @@ h3 {
 
 .order-card {
   flex: 1;
-  flex-basis: 250px;
+  flex-basis: 100px;
   background: var(--pure-white);
-
+  padding: 0 1rem 2rem 1rem;
   border: 0.1rem solid var(--gold-finger);
   border-radius: 2rem;
   box-shadow:
@@ -233,6 +233,11 @@ h3 {
 }
 .order-card img {
   width: 15rem;
+}
+
+h4 {
+  font: 1.8rem;
+  color: var(--lead-clr);
 }
 
 /* Media Queries */
